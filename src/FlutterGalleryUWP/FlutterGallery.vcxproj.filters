@@ -1,0 +1,3293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="App.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="..\shared\flutter\ephemeral\cpp_client_wrapper_winrt\core_implementations.cc" />
+    <ClCompile Include="..\shared\flutter\ephemeral\cpp_client_wrapper_winrt\flutter_engine_winrt.cc" />
+    <ClCompile Include="..\shared\flutter\ephemeral\cpp_client_wrapper_winrt\flutter_view_controller_winrt.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\demos\1.5x\bottom_navigation_background.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\demos\2.0x\bottom_navigation_background.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\demos\3.0x\bottom_navigation_background.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\demos\4.0x\bottom_navigation_background.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\demos\bottom_navigation_background.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\icons\cupertino\1.5x\cupertino.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\icons\cupertino\2.0x\cupertino.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\icons\cupertino\3.0x\cupertino.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\icons\cupertino\4.0x\cupertino.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\icons\cupertino\cupertino.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\icons\material\1.5x\material.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\icons\material\2.0x\material.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\icons\material\3.0x\material.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\icons\material\4.0x\material.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\icons\material\material.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\icons\reference\1.5x\reference.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\icons\reference\2.0x\reference.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\icons\reference\3.0x\reference.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\icons\reference\4.0x\reference.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\icons\reference\reference.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\logo\1.5x\flutter_logo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\logo\1.5x\flutter_logo_color.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\logo\2.0x\flutter_logo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\logo\2.0x\flutter_logo_color.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\logo\3.0x\flutter_logo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\logo\3.0x\flutter_logo_color.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\logo\4.0x\flutter_logo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\logo\4.0x\flutter_logo_color.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\logo\flutter_logo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\logo\flutter_logo_color.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\crane_card.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\crane_card_dark.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\fortnightly_card.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\fortnightly_card_dark.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\rally_card.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\rally_card_dark.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\reply_card.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\reply_card_dark.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\shrine_card.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\shrine_card_dark.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\starter_card.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\starter_card_dark.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\1.5x\crane_card.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\1.5x\crane_card_dark.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\1.5x\fortnightly_card.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\1.5x\fortnightly_card_dark.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\1.5x\rally_card.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\1.5x\rally_card_dark.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\1.5x\reply_card.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\1.5x\reply_card_dark.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\1.5x\shrine_card.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\1.5x\shrine_card_dark.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\1.5x\starter_card.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\1.5x\starter_card_dark.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\2.0x\crane_card.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\2.0x\crane_card_dark.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\2.0x\fortnightly_card.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\2.0x\fortnightly_card_dark.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\2.0x\rally_card.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\2.0x\rally_card_dark.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\2.0x\reply_card.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\2.0x\reply_card_dark.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\2.0x\shrine_card.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\2.0x\shrine_card_dark.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\2.0x\starter_card.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\2.0x\starter_card_dark.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\3.0x\crane_card.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\3.0x\crane_card_dark.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\3.0x\fortnightly_card.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\3.0x\fortnightly_card_dark.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\3.0x\rally_card.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\3.0x\rally_card_dark.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\3.0x\reply_card.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\3.0x\reply_card_dark.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\3.0x\shrine_card.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\3.0x\shrine_card_dark.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\3.0x\starter_card.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\3.0x\starter_card_dark.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\4.0x\crane_card.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\4.0x\crane_card_dark.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\4.0x\fortnightly_card.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\4.0x\fortnightly_card_dark.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\4.0x\rally_card.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\4.0x\rally_card_dark.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\4.0x\reply_card.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\4.0x\reply_card_dark.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\4.0x\shrine_card.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\4.0x\shrine_card_dark.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\4.0x\starter_card.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\studies\4.0x\starter_card_dark.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\eat_1.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\eat_2.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\eat_3.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\eat_4.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\eat_5.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\eat_6.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\eat_7.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\eat_8.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\eat_9.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\eat_10.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\fly_0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\fly_1.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\fly_2.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\fly_3.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\fly_4.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\fly_5.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\fly_6.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\fly_7.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\fly_8.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\fly_9.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\fly_10.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\fly_11.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\fly_12.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\fly_13.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\sleep_0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\sleep_1.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\sleep_2.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\sleep_3.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\sleep_4.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\sleep_5.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\sleep_6.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\sleep_7.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\sleep_8.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\sleep_9.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\sleep_10.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\sleep_11.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\2.0x\eat_1.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\2.0x\eat_2.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\2.0x\eat_3.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\2.0x\eat_4.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\2.0x\eat_5.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\2.0x\eat_6.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\2.0x\eat_7.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\2.0x\eat_8.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\2.0x\eat_9.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\2.0x\eat_10.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\2.0x\fly_0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\2.0x\fly_1.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\2.0x\fly_2.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\2.0x\fly_3.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\2.0x\fly_4.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\2.0x\fly_5.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\2.0x\fly_6.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\2.0x\fly_7.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\2.0x\fly_8.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\2.0x\fly_9.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\2.0x\fly_10.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\2.0x\fly_11.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\2.0x\fly_12.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\2.0x\fly_13.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\2.0x\sleep_0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\2.0x\sleep_1.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\2.0x\sleep_2.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\2.0x\sleep_3.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\2.0x\sleep_4.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\2.0x\sleep_5.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\2.0x\sleep_6.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\2.0x\sleep_7.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\2.0x\sleep_8.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\2.0x\sleep_9.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\2.0x\sleep_10.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\2.0x\sleep_11.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\3.0x\eat_1.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\3.0x\eat_2.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\3.0x\eat_3.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\3.0x\eat_4.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\3.0x\eat_5.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\3.0x\eat_6.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\3.0x\eat_7.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\3.0x\eat_8.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\3.0x\eat_9.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\3.0x\eat_10.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\3.0x\fly_0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\3.0x\fly_1.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\3.0x\fly_2.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\3.0x\fly_3.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\3.0x\fly_4.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\3.0x\fly_5.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\3.0x\fly_6.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\3.0x\fly_7.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\3.0x\fly_8.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\3.0x\fly_9.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\3.0x\fly_10.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\3.0x\fly_11.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\3.0x\fly_12.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\3.0x\fly_13.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\3.0x\sleep_0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\3.0x\sleep_1.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\3.0x\sleep_2.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\3.0x\sleep_3.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\3.0x\sleep_4.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\3.0x\sleep_5.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\3.0x\sleep_6.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\3.0x\sleep_7.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\3.0x\sleep_8.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\3.0x\sleep_9.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\3.0x\sleep_10.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\destinations\3.0x\sleep_11.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\logo\logo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\logo\2.0x\logo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\crane\logo\3.0x\logo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fortnightly\fortnightly_army.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fortnightly\fortnightly_bees.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fortnightly\fortnightly_chart.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fortnightly\fortnightly_fabrics.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fortnightly\fortnightly_feminists.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fortnightly\fortnightly_gas.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fortnightly\fortnightly_healthcare.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fortnightly\fortnightly_stocks.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fortnightly\fortnightly_title.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fortnightly\fortnightly_war.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fortnightly\1.5x\fortnightly_bees.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fortnightly\1.5x\fortnightly_chart.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fortnightly\1.5x\fortnightly_feminists.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fortnightly\1.5x\fortnightly_healthcare.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fortnightly\1.5x\fortnightly_title.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fortnightly\2.0x\fortnightly_bees.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fortnightly\2.0x\fortnightly_chart.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fortnightly\2.0x\fortnightly_feminists.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fortnightly\2.0x\fortnightly_healthcare.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fortnightly\2.0x\fortnightly_title.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fortnightly\3.0x\fortnightly_bees.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fortnightly\3.0x\fortnightly_chart.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fortnightly\3.0x\fortnightly_feminists.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fortnightly\3.0x\fortnightly_healthcare.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fortnightly\3.0x\fortnightly_title.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fortnightly\4.0x\fortnightly_bees.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fortnightly\4.0x\fortnightly_chart.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fortnightly\4.0x\fortnightly_feminists.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fortnightly\4.0x\fortnightly_healthcare.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fortnightly\4.0x\fortnightly_title.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\placeholders\avatar_logo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\placeholders\placeholder_image.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\places\india_chennai_flower_market.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\places\india_chennai_highway.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\places\india_chettinad_produce.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\places\india_chettinad_silk_maker.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\places\india_pondicherry_beach.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\places\india_pondicherry_fisherman.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\places\india_pondicherry_salt_farm.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\places\india_tanjore_bronze_works.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\places\india_tanjore_market_merchant.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\places\india_tanjore_market_technology.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\places\india_tanjore_thanjavur_temple.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\places\india_tanjore_thanjavur_temple_carvings.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\places\india_thanjavur_market.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\reply_logo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\attachments\paris_2.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\attachments\paris_3.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\attachments\paris_4.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\attachments\paris_1.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\attachments\1.5x\paris_1.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\attachments\1.5x\paris_2.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\attachments\1.5x\paris_3.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\attachments\1.5x\paris_4.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\attachments\2.0x\paris_1.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\attachments\2.0x\paris_2.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\attachments\2.0x\paris_3.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\attachments\2.0x\paris_4.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\attachments\3.0x\paris_1.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\attachments\3.0x\paris_2.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\attachments\3.0x\paris_3.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\attachments\3.0x\paris_4.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\attachments\4.0x\paris_1.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\attachments\4.0x\paris_2.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\attachments\4.0x\paris_3.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\attachments\4.0x\paris_4.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\avatars\avatar_0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\avatars\avatar_1.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\avatars\avatar_2.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\avatars\avatar_3.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\avatars\avatar_4.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\avatars\avatar_5.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\avatars\avatar_6.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\avatars\avatar_7.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\avatars\avatar_8.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\avatars\avatar_9.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\avatars\avatar_10.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\avatars\avatar_express.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\avatars\2.0x\avatar_0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\avatars\2.0x\avatar_1.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\avatars\2.0x\avatar_2.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\avatars\2.0x\avatar_3.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\avatars\2.0x\avatar_4.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\avatars\2.0x\avatar_5.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\avatars\2.0x\avatar_6.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\avatars\2.0x\avatar_7.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\avatars\2.0x\avatar_8.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\avatars\2.0x\avatar_9.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\avatars\2.0x\avatar_10.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\avatars\2.0x\avatar_express.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\icons\twotone_add_circle_outline.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\icons\twotone_delete.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\icons\twotone_drafts.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\icons\twotone_error.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\icons\twotone_folder.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\icons\twotone_forward.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\icons\twotone_inbox.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\icons\twotone_send.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\icons\twotone_star.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\icons\twotone_star_on_background.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\reply\icons\twotone_stars.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\splash_effects\splash_effect_1.gif">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\splash_effects\splash_effect_2.gif">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\splash_effects\splash_effect_3.gif">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\splash_effects\splash_effect_4.gif">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\splash_effects\splash_effect_5.gif">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\splash_effects\splash_effect_6.gif">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\splash_effects\splash_effect_7.gif">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\splash_effects\splash_effect_8.gif">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\splash_effects\splash_effect_9.gif">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\splash_effects\splash_effect_10.gif">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\rally_assets\logo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\rally_assets\thumb.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\0-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\1-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\4-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\5-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\6-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\7-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\8-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\9-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\10-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\11-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\12-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\13-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\14-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\15-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\16-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\17-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\18-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\19-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\20-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\21-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\22-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\23-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\24-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\25-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\26-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\27-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\28-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\29-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\30-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\31-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\32-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\33-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\34-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\35-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\36-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\37-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\diamond.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\slanted_menu.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\0-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\1-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\2-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\3-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\4-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\5-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\6-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\7-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\8-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\9-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\10-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\11-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\12-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\13-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\14-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\15-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\16-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\17-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\18-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\19-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\20-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\21-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\22-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\23-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\24-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\25-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\26-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\27-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\28-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\29-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\30-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\31-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\32-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\33-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\34-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\35-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\36-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\37-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\diamond.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\2.0x\slanted_menu.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\0-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\1-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\2-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\3-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\4-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\5-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\6-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\7-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\8-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\9-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\10-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\11-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\12-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\13-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\14-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\15-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\16-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\17-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\18-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\19-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\20-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\21-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\22-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\23-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\24-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\25-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\26-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\27-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\28-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\29-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\30-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\31-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\32-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\33-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\34-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\35-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\36-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\37-0.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\diamond.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\flutter_assets\packages\shrine_images\3.0x\slanted_menu.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallTile.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallTile.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallTile.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallTile.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallTile.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\WideTile.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\WideTile.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\WideTile.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\WideTile.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\WideTile.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LargeTile.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LargeTile.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LargeTile.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LargeTile.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LargeTile.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-16.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-32.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-48.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-256.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\data\app.so" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{db9086fe-bacc-4437-8272-1aa6642082db}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PropertySheet.props" />
+    <None Include="packages.config" />
+    <None Include="Assets\data\flutter_assets\FontManifest.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\kernel_blob.bin">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\NOTICES">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\AssetManifest.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\icons\settings\settings_dark.flr">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\assets\icons\settings\settings_light.flr">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\am.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\am_ET.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ar.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ar_AE.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ar_BH.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ar_DJ.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ar_DZ.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ar_EG.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ar_EH.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ar_ER.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ar_IL.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ar_IQ.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ar_JO.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ar_KM.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ar_KW.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ar_LB.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ar_LY.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ar_MA.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ar_MR.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ar_OM.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ar_PS.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ar_QA.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ar_SA.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ar_SD.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ar_SO.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ar_SS.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ar_SY.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ar_TD.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ar_TN.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ar_YE.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\as.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\as_IN.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\az.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\az_AZ.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\az_Cyrl.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\az_Cyrl_AZ.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\az_Latn.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\az_Latn_AZ.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\be.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\be_BY.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\bg.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\bg_BG.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\bm.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\bm_Latn.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\bm_Latn_ML.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\bn.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\bn_BD.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\bn_IN.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\bo.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\bo_CN.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\bo_IN.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\br.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\br_FR.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\bs.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\bs_BA.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\bs_Cyrl.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\bs_Cyrl_BA.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\bs_Latn.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\bs_Latn_BA.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ca.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ca_AD.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ca_ES.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ca_FR.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ca_IT.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\cs.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\cs_CZ.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\cy.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\cy_GB.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\da.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\da_DK.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\da_GL.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\de.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\de_AT.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\de_BE.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\de_CH.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\de_DE.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\de_LI.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\de_LU.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\dz.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\dz_BT.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ee.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ee_GH.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ee_TG.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\el.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\el_CY.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\el_GR.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_AG.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_AI.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_AS.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_AU.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_BB.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_BE.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_BM.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_BS.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_BW.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_BZ.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_CA.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_CC.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_CK.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_CM.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_CX.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_DG.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_DM.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_ER.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_FJ.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_FK.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_FM.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_GB.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_GD.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_GG.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_GH.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_GI.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_GM.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_GU.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_GY.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_HK.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_IE.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_IM.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_IN.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_IO.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_JE.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_JM.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_KE.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_KI.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_KN.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_KY.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_LC.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_LR.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_LS.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_MG.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_MH.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_MO.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_MP.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_MS.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_MT.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_MU.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_MW.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_MY.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_NA.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_NF.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_NG.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_NR.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_NU.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_NZ.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_PG.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_PH.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_PK.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_PN.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_PR.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_PW.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_RW.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_SB.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_SC.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_SD.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_SG.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_SH.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_SL.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_SS.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_SX.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_SZ.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_TC.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_TK.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_TO.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_TT.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_TV.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_TZ.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_UG.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_UM.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_US.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_VC.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_VG.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_VI.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_VU.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_WS.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_ZA.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_ZM.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\en_ZW.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\eo.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\es.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\es_AR.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\es_BO.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\es_CL.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\es_CO.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\es_CR.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\es_CU.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\es_DO.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\es_EA.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\es_EC.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\es_ES.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\es_GQ.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\es_GT.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\es_HN.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\es_IC.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\es_MX.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\es_NI.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\es_PA.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\es_PE.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\es_PH.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\es_PR.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\es_PY.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\es_SV.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\es_US.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\es_UY.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\es_VE.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\et.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\et_EE.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\eu.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\eu_ES.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fa.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fa_AF.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fa_IR.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ff.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ff_CM.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ff_GN.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ff_MR.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ff_SN.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fi.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fi_FI.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fo.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fo_FO.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_BE.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_BF.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_BI.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_BJ.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_BL.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_CA.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_CD.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_CF.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_CG.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_CH.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_CI.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_CM.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_DJ.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_DZ.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_FR.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_GA.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_GF.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_GN.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_GP.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_GQ.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_HT.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_KM.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_LU.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_MA.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_MC.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_MF.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_MG.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_ML.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_MQ.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_MR.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_MU.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_NC.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_NE.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_PF.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_PM.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_RE.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_RW.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_SC.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_SN.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_SY.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_TD.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_TG.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_TN.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_VU.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_WF.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fr_YT.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fy.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\fy_NL.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ga.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ga_IE.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\gd.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\gd_GB.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\gl.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\gl_ES.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\gu.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\gu_IN.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\gv.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\gv_IM.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ha.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ha_GH.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ha_Latn.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ha_Latn_GH.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ha_Latn_NE.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ha_Latn_NG.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ha_NE.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ha_NG.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\he.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\he_IL.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\hi.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\hi_IN.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\hr.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\hr_BA.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\hr_HR.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\hu.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\hu_HU.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\hy.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\hy_AM.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\id.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\id_ID.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ig.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ig_NG.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ii.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ii_CN.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\is.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\is_IS.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\it.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\it_CH.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\it_IT.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\it_SM.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ja.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ja_JP.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ka.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ka_GE.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ki.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ki_KE.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\kk.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\kk_Cyrl.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\kk_Cyrl_KZ.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\kk_KZ.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\kl.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\kl_GL.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\km.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\km_KH.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\kn.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\kn_IN.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ko.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ko_KP.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ko_KR.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ks.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ks_Arab.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ks_Arab_IN.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ks_IN.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\kw.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\kw_GB.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ky.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ky_Cyrl.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ky_Cyrl_KG.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ky_KG.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\lb.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\lb_LU.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\lg.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\lg_UG.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ln.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ln_AO.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ln_CD.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ln_CF.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ln_CG.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\lo.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\lo_LA.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\lt.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\lt_LT.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\lu.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\lu_CD.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\lv.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\lv_LV.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\mg.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\mg_MG.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\mk.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\mk_MK.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ml.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ml_IN.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\mn.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\mn_Cyrl.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\mn_Cyrl_MN.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\mn_MN.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\mr.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\mr_IN.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ms.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ms_BN.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ms_Latn.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ms_Latn_BN.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ms_Latn_MY.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ms_Latn_SG.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ms_MY.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ms_SG.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\mt.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\mt_MT.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\my.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\my_MM.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\nb.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\nb_NO.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\nb_SJ.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\nd.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\nd_ZW.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ne.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ne_IN.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ne_NP.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\nl.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\nl_AW.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\nl_BE.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\nl_BQ.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\nl_CW.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\nl_NL.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\nl_SR.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\nl_SX.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\nn.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\nn_NO.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\no.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\no_NO.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\om.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\om_ET.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\om_KE.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\or.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\or_IN.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\os.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\os_GE.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\os_RU.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\pa.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\pa_Arab.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\pa_Arab_PK.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\pa_Guru.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\pa_Guru_IN.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\pa_IN.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\pa_PK.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\pl.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\pl_PL.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ps.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ps_AF.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\pt.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\pt_AO.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\pt_BR.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\pt_CV.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\pt_GW.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\pt_MO.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\pt_MZ.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\pt_PT.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\pt_ST.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\pt_TL.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\qu.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\qu_BO.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\qu_EC.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\qu_PE.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\rm.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\rm_CH.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\rn.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\rn_BI.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ro.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ro_MD.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ro_RO.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ru.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ru_BY.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ru_KG.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ru_KZ.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ru_MD.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ru_RU.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ru_UA.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\rw.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\rw_RW.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\se.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\se_FI.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\se_NO.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\se_SE.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\sg.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\sg_CF.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\sh.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\sh_BA.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\si.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\si_LK.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\sk.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\sk_SK.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\sl.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\sl_SI.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\sn.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\sn_ZW.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\so.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\so_DJ.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\so_ET.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\so_KE.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\so_SO.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\sq.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\sq_AL.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\sq_MK.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\sq_XK.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\sr.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\sr_BA.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\sr_Cyrl.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\sr_Cyrl_BA.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\sr_Cyrl_ME.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\sr_Cyrl_RS.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\sr_Cyrl_XK.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\sr_Latn.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\sr_Latn_BA.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\sr_Latn_ME.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\sr_Latn_RS.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\sr_Latn_XK.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\sr_ME.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\sr_RS.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\sr_XK.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\sv.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\sv_AX.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\sv_FI.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\sv_SE.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\sw.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\sw_KE.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\sw_TZ.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\sw_UG.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ta.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ta_IN.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ta_LK.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ta_MY.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ta_SG.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\te.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\te_IN.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\th.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\th_TH.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ti.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ti_ER.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ti_ET.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\tl.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\tl_PH.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\to.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\to_TO.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\tr.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\tr_CY.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\tr_TR.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ug.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ug_Arab.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ug_Arab_CN.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ug_CN.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\uk.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\uk_UA.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ur.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ur_IN.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ur_PK.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\uz.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\uz_AF.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\uz_Arab.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\uz_Arab_AF.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\uz_Cyrl.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\uz_Cyrl_UZ.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\uz_Latn.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\uz_Latn_UZ.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\uz_UZ.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\vi.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\vi_VN.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\yi.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\yo.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\yo_BJ.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\yo_NG.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\zh.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\zh_CN.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\zh_Hans.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\zh_Hans_CN.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\zh_Hans_HK.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\zh_Hans_MO.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\zh_Hans_SG.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\zh_Hant.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\zh_Hant_HK.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\zh_Hant_MO.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\zh_Hant_TW.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\zh_HK.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\zh_MO.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\zh_SG.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\zh_TW.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\zu.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\zu_ZA.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\af.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\af_NA.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\af_ZA.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ak.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\flutter_assets\packages\flutter_localized_locales\data\ak_GH.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\data\icudtl.dat">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="FlutterGalleryUWP_StoreKey.pfx" />
+    <None Include="..\shared\flutter\ephemeral\bin_release\flutter_windows_winrt.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Assets\data\flutter_assets\packages\cupertino_icons\assets\CupertinoIcons.ttf">
+      <Filter>Assets</Filter>
+    </Font>
+    <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\GalleryIcons.ttf">
+      <Filter>Assets</Filter>
+    </Font>
+    <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\Montserrat-Bold.ttf">
+      <Filter>Assets</Filter>
+    </Font>
+    <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\Montserrat-Medium.ttf">
+      <Filter>Assets</Filter>
+    </Font>
+    <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\Montserrat-Regular.ttf">
+      <Filter>Assets</Filter>
+    </Font>
+    <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\Montserrat-SemiBold.ttf">
+      <Filter>Assets</Filter>
+    </Font>
+    <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\Oswald-Medium.ttf">
+      <Filter>Assets</Filter>
+    </Font>
+    <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\Oswald-SemiBold.ttf">
+      <Filter>Assets</Filter>
+    </Font>
+    <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\Raleway-Light.ttf">
+      <Filter>Assets</Filter>
+    </Font>
+    <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\Raleway-Medium.ttf">
+      <Filter>Assets</Filter>
+    </Font>
+    <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\Raleway-Regular.ttf">
+      <Filter>Assets</Filter>
+    </Font>
+    <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\Raleway-SemiBold.ttf">
+      <Filter>Assets</Filter>
+    </Font>
+    <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\RobotoCondensed-Bold.ttf">
+      <Filter>Assets</Filter>
+    </Font>
+    <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\RobotoCondensed-Regular.ttf">
+      <Filter>Assets</Filter>
+    </Font>
+    <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\RobotoMono-Regular.ttf">
+      <Filter>Assets</Filter>
+    </Font>
+    <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\Rubik-Bold.ttf">
+      <Filter>Assets</Filter>
+    </Font>
+    <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\Rubik-Medium.ttf">
+      <Filter>Assets</Filter>
+    </Font>
+    <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\Rubik-Regular.ttf">
+      <Filter>Assets</Filter>
+    </Font>
+    <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\WorkSans-Bold.ttf">
+      <Filter>Assets</Filter>
+    </Font>
+    <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\WorkSans-Medium.ttf">
+      <Filter>Assets</Filter>
+    </Font>
+    <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\WorkSans-Regular.ttf">
+      <Filter>Assets</Filter>
+    </Font>
+    <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\WorkSans-SemiBold.ttf">
+      <Filter>Assets</Filter>
+    </Font>
+    <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\WorkSans-Thin.ttf">
+      <Filter>Assets</Filter>
+    </Font>
+    <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\Eczar-Regular.ttf">
+      <Filter>Assets</Filter>
+    </Font>
+    <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\Eczar-SemiBold.ttf">
+      <Filter>Assets</Filter>
+    </Font>
+    <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\LibreFranklin-Bold.ttf">
+      <Filter>Assets</Filter>
+    </Font>
+    <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\LibreFranklin-ExtraBold.ttf">
+      <Filter>Assets</Filter>
+    </Font>
+    <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\LibreFranklin-Medium.ttf">
+      <Filter>Assets</Filter>
+    </Font>
+    <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\LibreFranklin-Regular.ttf">
+      <Filter>Assets</Filter>
+    </Font>
+    <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\LibreFranklin-SemiBold.ttf">
+      <Filter>Assets</Filter>
+    </Font>
+    <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\Merriweather-BoldItalic.ttf">
+      <Filter>Assets</Filter>
+    </Font>
+    <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\Merriweather-Light.ttf">
+      <Filter>Assets</Filter>
+    </Font>
+    <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\Merriweather-Regular.ttf">
+      <Filter>Assets</Filter>
+    </Font>
+    <Font Include="Assets\data\flutter_assets\fonts\MaterialIcons-Regular.otf">
+      <Filter>Assets</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\shared\flutter\ephemeral\bin_release\flutter_windows_winrt.dll.lib" />
+  </ItemGroup>
+</Project>

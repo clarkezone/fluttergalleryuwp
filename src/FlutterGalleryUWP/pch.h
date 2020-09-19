@@ -1,0 +1,16 @@
+﻿#pragma once
+#include <windows.h>
+#include <winrt/Windows.Storage.h>
+#include <winrt/Windows.Foundation.h>
+#include <winrt/Windows.Foundation.Collections.h>
+#include <winrt/Windows.ApplicationModel.Core.h>
+#include <winrt/Windows.Graphics.Display.h>
+#include <winrt/Windows.UI.Core.h>
+#include <winrt/Windows.UI.Composition.h>
+#include <winrt/Windows.UI.Input.h>
+#include <winrt/Windows.UI.ViewManagement.h>
+#include <winrt/Windows.UI.ViewManagement.Core.h>
+#include <winrt/Windows.UI.Popups.h>
+#include <cpp_client_wrapper_winrt/include/flutter/flutter_windows.h>
+#include <cpp_client_wrapper_winrt/include/flutter/flutter_view_controller_winrt.h>
+#include <memory>
