@@ -3178,7 +3178,8 @@
       <Filter>Assets</Filter>
     </None>
     <None Include="FlutterGalleryUWP_StoreKey.pfx" />
-    <None Include="..\shared\flutter\ephemeral\bin_release\flutter_windows_winrt.dll" />
+    <None Include="flutter_windows_winrt.dll" />
+    <None Include="flutter_windows_winrt.dll.pdb" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="readme.txt" />
@@ -3286,8 +3287,5 @@
     <Font Include="Assets\data\flutter_assets\fonts\MaterialIcons-Regular.otf">
       <Filter>Assets</Filter>
     </Font>
-  </ItemGroup>
-  <ItemGroup>
-    <Library Include="..\shared\flutter\ephemeral\bin_release\flutter_windows_winrt.dll.lib" />
   </ItemGroup>
 </Project>
