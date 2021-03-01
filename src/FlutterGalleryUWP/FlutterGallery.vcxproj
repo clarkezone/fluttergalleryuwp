@@ -70,7 +70,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros">
     <GenerateAppInstallerFile>False</GenerateAppInstallerFile>
-    <AppxPackageSigningEnabled>False</AppxPackageSigningEnabled>
+    <AppxPackageSigningEnabled>True</AppxPackageSigningEnabled>
     <AppxPackageSigningTimestampDigestAlgorithm>SHA256</AppxPackageSigningTimestampDigestAlgorithm>
     <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
     <AppxPackageDir>C:\src\f\flutter-uwp-prototype-demos\AppPackages\</AppxPackageDir>
@@ -78,9 +78,8 @@
     <AppxBundle>Always</AppxBundle>
     <AppxBundlePlatforms>x64</AppxBundlePlatforms>
     <HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
-    <PackageCertificateThumbprint>7178FDE04DCD34B3FF0DA76ACB8788FA66A992B9</PackageCertificateThumbprint>
-    <PackageCertificateKeyFile>FlutterGalleryUWP_StoreKey.pfx</PackageCertificateKeyFile>
-    <AppInstallerUpdateFrequency>1</AppInstallerUpdateFrequency>
+    <PackageCertificateThumbprint>15371E30E320843C657C22FFC9CCCC24926A4BF4</PackageCertificateThumbprint>
+    <AppInstallerUpdateFrequency>0</AppInstallerUpdateFrequency>
     <AppInstallerCheckForUpdateFrequency>OnApplicationRun</AppInstallerCheckForUpdateFrequency>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -109,15 +108,15 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)'=='Debug'">
     <ClCompile>
-      <PreprocessorDefinitions>FLUTTER_WINRT;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WINUWP;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
-      <AdditionalDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">WindowsApp.lib;flutter_windows_winrt.dll.lib;%(AdditionalDependencies);</AdditionalDependencies>
+      <AdditionalDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">WindowsApp.lib;flutter_windows_winuwp.dll.lib;%(AdditionalDependencies);</AdditionalDependencies>
     </Link>
     <PreBuildEvent>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">powershell -file $(SolutionDir)..\scripts\checkbins.ps1
-copy /b/v/y "$(SolutionDir)shared\flutter\ephemeral\bin_debug\flutter_windows_winrt.dll" "$(ProjectDir)." 
-copy /b/v/y "$(SolutionDir)shared\flutter\ephemeral\bin_debug\flutter_windows_winrt.dll.pdb" "$(ProjectDir)." </Command>
+copy /b/v/y "$(SolutionDir)shared\flutter\ephemeral\bin_debug\flutter_windows_winuwp.dll" "$(ProjectDir)." 
+copy /b/v/y "$(SolutionDir)shared\flutter\ephemeral\bin_debug\flutter_windows_winuwp.dll.pdb" "$(ProjectDir)." </Command>
     </PreBuildEvent>
     <PostBuildEvent>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -132,18 +131,18 @@ copy /Y "$(SolutionDir)shared\flutter\ephemeral\bin_debug\flutter_windows_winrt.
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)'=='Release'">
     <ClCompile>
-      <PreprocessorDefinitions>FLUTTER_WINRT;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WINUWP;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WindowsApp.lib;flutter_windows_winrt.dll.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WindowsApp.lib;flutter_windows_winuwp.dll.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PreBuildEvent>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">powershell -file $(SolutionDir)..\scripts\checkbins.ps1
-copy /b/v/y "$(SolutionDir)shared\flutter\ephemeral\bin_release\flutter_windows_winrt.dll" "$(ProjectDir)." 
-copy /b/v/y "$(SolutionDir)shared\flutter\ephemeral\bin_release\flutter_windows_winrt.dll.pdb" "$(ProjectDir)." </Command>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copy into project to ensure correct publishing</Message>
+copy /b/v/y "$(SolutionDir)shared\flutter\ephemeral\bin_release\flutter_windows_winuwp.dll" "$(ProjectDir)." 
+copy /b/v/y "$(SolutionDir)shared\flutter\ephemeral\bin_release\flutter_windows_winuwp.dll.pdb" "$(ProjectDir)." </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copy Flutter WinRT binaries into project to ensure correct publishing</Message>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -155,29 +154,29 @@ copy /b/v/y "$(SolutionDir)shared\flutter\ephemeral\bin_release\flutter_windows_
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\shared\flutter\ephemeral\cpp_client_wrapper_winrt\core_implementations.cc">
+    <ClCompile Include="..\shared\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
       </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeaderOutputFile>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-      </PrecompiledHeaderFile>
     </ClCompile>
-    <ClCompile Include="..\shared\flutter\ephemeral\cpp_client_wrapper_winrt\flutter_engine_winrt.cc">
+    <ClCompile Include="..\shared\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
       </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeaderOutputFile>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-      </PrecompiledHeaderFile>
     </ClCompile>
-    <ClCompile Include="..\shared\flutter\ephemeral\cpp_client_wrapper_winrt\flutter_view_controller_winrt.cc">
+    <ClCompile Include="..\shared\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
       </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeaderOutputFile>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-      </PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="App.cpp" />
     <ClCompile Include="pch.cpp">
@@ -2466,13 +2465,13 @@ copy /b/v/y "$(SolutionDir)shared\flutter\ephemeral\bin_release\flutter_windows_
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</DeploymentContent>
     </None>
     <None Include="FlutterGalleryUWP_StoreKey.pfx" />
-    <None Include="flutter_windows_winrt.dll">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</DeploymentContent>
+    <None Include="flutter_windows_winuwp.dll">
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</DeploymentContent>
     </None>
-    <None Include="flutter_windows_winrt.dll.pdb">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</DeploymentContent>
+    <None Include="flutter_windows_winuwp.dll.pdb">
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</DeploymentContent>
     </None>
     <None Include="packages.config" />
     <None Include="PropertySheet.props" />
@@ -2974,7 +2973,6 @@ copy /b/v/y "$(SolutionDir)shared\flutter\ephemeral\bin_release\flutter_windows_
     <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\LibreFranklin-Medium.ttf" />
     <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\LibreFranklin-Regular.ttf" />
     <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\LibreFranklin-SemiBold.ttf" />
-    <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\Merriweather-BoldItalic.ttf" />
     <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\Merriweather-Light.ttf" />
     <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\Merriweather-Regular.ttf" />
     <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\Montserrat-Bold.ttf" />
@@ -3005,6 +3003,9 @@ copy /b/v/y "$(SolutionDir)shared\flutter\ephemeral\bin_release\flutter_windows_
       <FileType>Document</FileType>
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</DeploymentContent>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package.StoreAssociation.xml" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -13,7 +13,7 @@
 #include "winrt/Windows.System.Threading.h"
 #include "winrt/Windows.UI.Core.h"
 
-#include <cpp_client_wrapper_winrt/include/flutter/plugin_registry.h>
+#include <cpp_client_wrapper/include/flutter/plugin_registry.h>
 
 
 using namespace winrt;
@@ -25,7 +25,7 @@ using namespace Windows::Foundation;
 using namespace Windows::UI::Core;
 
 struct App : winrt::implements<App, IFrameworkViewSource, IFrameworkView> {
-    std::unique_ptr<flutter::FlutterViewControllerWinRT> m_flutterController{ nullptr };
+    std::unique_ptr<flutter::FlutterViewController> m_flutterController{ nullptr };
 
     IFrameworkView CreateView() { return *this; }
 
@@ -91,13 +91,13 @@ struct App : winrt::implements<App, IFrameworkViewSource, IFrameworkView> {
 #endif            
 			};
 
-            flutter::DartProjectWinRT project(flutter_assets_path, icu_data_path, aot_data_path);
+            flutter::DartProject project(flutter_assets_path, icu_data_path, aot_data_path);
 
             // Construct viewcontroller using the Window and project
-            m_flutterController = std::make_unique<flutter::FlutterViewControllerWinRT>( static_cast<ABI::Windows::UI::Core::CoreWindow*>(winrt::get_abi(window_)), project);
+            m_flutterController = std::make_unique<flutter::FlutterViewController>( static_cast<ABI::Windows::UI::Core::CoreWindow*>(winrt::get_abi(window_)), project);
 
             // If plugins present, register them
-            RegisterPlugins(m_flutterController.get());
+            //RegisterPlugins(m_flutterController.get());
         }
         catch (winrt::hresult_error& err) {
             winrt::Windows::UI::Popups::MessageDialog md = winrt::Windows::UI::Popups::MessageDialog::MessageDialog(L"There was a problem starting the engine: " + err.message());

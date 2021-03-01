@@ -11,6 +11,6 @@
 #include <winrt/Windows.UI.ViewManagement.h>
 #include <winrt/Windows.UI.ViewManagement.Core.h>
 #include <winrt/Windows.UI.Popups.h>
-#include <cpp_client_wrapper_winrt/include/flutter/flutter_windows.h>
-#include <cpp_client_wrapper_winrt/include/flutter/flutter_view_controller_winrt.h>
+#include <cpp_client_wrapper/include/flutter/flutter_windows.h>
+#include <cpp_client_wrapper/include/flutter/flutter_view_controller.h>
 #include <memory>

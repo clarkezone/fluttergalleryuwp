@@ -3,9 +3,9 @@
   <ItemGroup>
     <ClCompile Include="App.cpp" />
     <ClCompile Include="pch.cpp" />
-    <ClCompile Include="..\shared\flutter\ephemeral\cpp_client_wrapper_winrt\core_implementations.cc" />
-    <ClCompile Include="..\shared\flutter\ephemeral\cpp_client_wrapper_winrt\flutter_engine_winrt.cc" />
-    <ClCompile Include="..\shared\flutter\ephemeral\cpp_client_wrapper_winrt\flutter_view_controller_winrt.cc" />
+    <ClCompile Include="..\shared\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc" />
+    <ClCompile Include="..\shared\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc" />
+    <ClCompile Include="..\shared\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -3178,8 +3178,9 @@
       <Filter>Assets</Filter>
     </None>
     <None Include="FlutterGalleryUWP_StoreKey.pfx" />
-    <None Include="flutter_windows_winrt.dll" />
-    <None Include="flutter_windows_winrt.dll.pdb" />
+    <None Include="flutter_windows_winuwp.dll" />
+    <None Include="flutter_windows_winuwp.dll.pdb" />
+    <None Include="Package.StoreAssociation.xml" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="readme.txt" />
@@ -3273,9 +3274,6 @@
       <Filter>Assets</Filter>
     </Font>
     <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\LibreFranklin-SemiBold.ttf">
-      <Filter>Assets</Filter>
-    </Font>
-    <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\Merriweather-BoldItalic.ttf">
       <Filter>Assets</Filter>
     </Font>
     <Font Include="Assets\data\flutter_assets\packages\flutter_gallery_assets\fonts\google_fonts\Merriweather-Light.ttf">
