@@ -31,10 +31,10 @@ if (($sourcepathrelease) -and (Test-Path($sourcepathrelease))) {
         New-Item $targetdirbinrelease -ItemType Directory
     }
 
-    $fdll = Join-Path -Path $sourcepathrelease -ChildPath 'flutter_windows_winrt.dll'
-    $fpdb = Join-Path -Path $sourcepathrelease -ChildPath 'flutter_windows_winrt.dll.pdb'
-    $fexp = Join-Path -Path $sourcepathrelease -ChildPath 'flutter_windows_winrt.dll.exp'
-    $flib = Join-Path -Path $sourcepathrelease -ChildPath 'flutter_windows_winrt.dll.lib'
+    $fdll = Join-Path -Path $sourcepathrelease -ChildPath 'flutter_windows_winuwp.dll'
+    $fpdb = Join-Path -Path $sourcepathrelease -ChildPath 'flutter_windows_winuwp.dll.pdb'
+    $fexp = Join-Path -Path $sourcepathrelease -ChildPath 'flutter_windows_winuwp.dll.exp'
+    $flib = Join-Path -Path $sourcepathrelease -ChildPath 'flutter_windows_winuwp.dll.lib'
 
     if ((Test-Path($sourcepathrelease))) {
         Write-Host "Copying Engine release binaries from: " $sourcepathrelease
@@ -49,16 +49,17 @@ if (($sourcepathrelease) -and (Test-Path($sourcepathrelease))) {
     Write-Output "No release build found at: " $sourcepathrelease
 }
 
-$fdlld = Join-Path -Path $sourcepathdebugunopt -ChildPath 'flutter_windows_winrt.dll'
-$fpdbd = Join-Path -Path $sourcepathdebugunopt -ChildPath 'flutter_windows_winrt.dll.pdb'
-$fexpd = Join-Path -Path $sourcepathdebugunopt -ChildPath 'flutter_windows_winrt.dll.exp'
-$flibd = Join-Path -Path $sourcepathdebugunopt -ChildPath 'flutter_windows_winrt.dll.lib'
+$fdlld = Join-Path -Path $sourcepathdebugunopt -ChildPath 'flutter_windows_winuwp.dll'
+$fpdbd = Join-Path -Path $sourcepathdebugunopt -ChildPath 'flutter_windows_winuwp.dll.pdb'
+$fexpd = Join-Path -Path $sourcepathdebugunopt -ChildPath 'flutter_windows_winuwp.dll.exp'
+$flibd = Join-Path -Path $sourcepathdebugunopt -ChildPath 'flutter_windows_winuwp.dll.lib'
 
-$cwrapper = Join-Path -Path $sourcepathdebugunopt -ChildPath 'cpp_client_wrapper_winrt'
+$cwrapper = Join-Path -Path $sourcepathdebugunopt -ChildPath 'cpp_client_wrapper'
 $flutterwindowsh = Join-Path -Path $sourcepathdebugunopt -ChildPath 'flutter_windows.h'
 $flutterexport = Join-Path -Path $sourcepathdebugunopt -ChildPath 'flutter_export.h'
 $fluttermessenger = Join-Path -Path $sourcepathdebugunopt -ChildPath 'flutter_messenger.h'
 $flutterpluginregistar = Join-Path -Path $sourcepathdebugunopt -ChildPath 'flutter_plugin_registrar.h'
+$fluttertextureregistar = Join-Path -Path $sourcepathdebugunopt -ChildPath 'flutter_texture_registrar.h'
 
 if (!(Test-Path($targetdirbindebug))) {
     New-Item $targetdirbindebug -ItemType Directory
@@ -72,7 +73,7 @@ copy-item $fpdbd $targetdirbindebug
 copy-item $fexpd $targetdirbindebug
 
 #source
-$includedir = Join-Path -Path $targetdir -ChildPath 'cpp_client_wrapper_winrt\include\flutter'
+$includedir = Join-Path -Path $targetdir -ChildPath 'cpp_client_wrapper\include\flutter'
 
 Copy-Item -Recurse -Force $cwrapper $targetdir
 copy-item $flutterwindowsh $targetdir
@@ -80,3 +81,4 @@ copy-item $flutterwindowsh $includedir
 copy-item $flutterexport $targetdir
 copy-item $fluttermessenger $targetdir
 copy-item $flutterpluginregistar $targetdir
+copy-item $fluttertextureregistar $targetdir
