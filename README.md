@@ -23,7 +23,7 @@ Check out the experimental UWP engine fork next to this project:
 
 * `rootdir\fluttergalleryuwp` (this project)
 * `rootdir\engine` (from https://github.com/clarkezone/engine)
-  * Ensure that you have the `flutter-uwp-sept2020` branch checked out.
+  * Ensure that you have the `flutter-uwp-feb2021` branch checked out.
 
 (If you use a different layout, you will need to modify
 `copy-local-engine.ps1` accordingly.)
